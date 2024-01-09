@@ -403,3 +403,14 @@ nav {
 .p_animation {
   margin-right: 60px;
 }
+
+/* ----------- TEMA 5 ------------ */
+.grid_vicuras {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+}
+.vicuras {
+  margin-left: 50px;
+  height: 600px;
+  width: 300px;
+}
