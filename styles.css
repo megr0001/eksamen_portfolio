@@ -1,0 +1,170 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* --------------- BAGGRUND --------------- */
+#screen {
+  position: relative;
+  width: 100%;
+  aspect-ratio: 16/9;
+}
+
+#baggrund {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-size: cover;
+  background-image: url(billeder/baggrund1.svg);
+}
+
+/* --------------- LOGO --------------- */
+#logo_element {
+  width: 17%;
+  aspect-ratio: 389/233;
+  position: absolute;
+  top: 2%;
+  left: 2%;
+}
+#logo_sprite {
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-image: url(billeder/logo-05.svg);
+}
+
+/* --------------- PULSERENDE STJERNE ELEMENT --------------- */
+#stjerne_element {
+  width: 2%;
+  aspect-ratio: 110/115;
+  position: absolute;
+  top: 9%;
+  left: 26%;
+}
+#stjerne_sprite {
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-image: url(billeder/stjerne.svg);
+  cursor: pointer;
+  animation-name: pulse_kf;
+  animation-duration: 0.8s;
+  animation-direction: alternate;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+@keyframes pulse_kf {
+  0% {
+    scale: 0.8;
+  }
+  100% {
+    scale: 1.1;
+  }
+}
+
+/* --------------- FLYVEMASKINE --------------- */
+#flyvemaskine {
+  width: 9%;
+  aspect-ratio: 330/152;
+  position: absolute;
+  top: 42%;
+  left: 0%;
+}
+#flyvemaskine_sprite {
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-image: url(billeder/flyvemaskine.svg);
+  cursor: pointer;
+  animation-name: flyv_kf;
+  animation-duration: 6s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  animation-fill-mode: both;
+}
+@keyframes flyv_kf {
+  0% {
+    translate: -100% 0;
+  }
+  100% {
+    translate: 1500% 0;
+  }
+}
+
+/* --------------- POLAROIDS --------------- */
+#polaroid_element {
+  width: 17%;
+  aspect-ratio: 284/389;
+  position: absolute;
+  top: 20%;
+  left: 17%;
+}
+#polaroid_sprite {
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-image: url(billeder/polaroid-04.svg);
+  cursor: pointer;
+}
+
+#polaroid_element1 {
+  width: 17%;
+  aspect-ratio: 284/389;
+  position: absolute;
+  top: 20%;
+  left: 44%;
+}
+#polaroid_sprite1 {
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-image: url(billeder/polaroid-04.svg);
+  cursor: pointer;
+}
+
+#polaroid_element2 {
+  width: 17%;
+  aspect-ratio: 284/389;
+  position: absolute;
+  top: 20%;
+  left: 70%;
+}
+#polaroid_sprite2 {
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-image: url(billeder/polaroid-04.svg);
+  cursor: pointer;
+}
+
+#polaroid_element3 {
+  width: 17%;
+  aspect-ratio: 284/389;
+  position: absolute;
+  top: 50%;
+  left: 44%;
+}
+#polaroid_sprite3 {
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-image: url(billeder/polaroid-04.svg);
+  cursor: pointer;
+}
+
+/* --------------- SKRIFT --------------- */
+h1 {
+  font-family: "just another hand";
+  font-size: 16px;
+  padding-top: 113%;
+  padding-left: 14%;
+}
+
+/* --------------- BILLEDER --------------- */
+.mig {
+  width: 100%;
+  height: 100%;
+}

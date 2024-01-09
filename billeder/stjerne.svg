@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Stjerne" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 33 33">
+  <defs>
+    <style>
+      .cls-1, .cls-2 {
+        stroke-width: 0px;
+      }
+
+      .cls-2 {
+        fill: url(#Ikke-navngivet_forløb_35);
+      }
+    </style>
+    <linearGradient id="Ikke-navngivet_forløb_35" data-name="Ikke-navngivet forløb 35" x1="13.28" y1="30.99" x2="13.28" y2=".63" gradientTransform="translate(12.45 -5.41) rotate(33.7)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#cfcdf4"/>
+      <stop offset="0" stop-color="#c2c1f1"/>
+      <stop offset=".05" stop-color="#9296e9"/>
+      <stop offset=".09" stop-color="#6a71e3"/>
+      <stop offset=".13" stop-color="#4b55dd"/>
+      <stop offset=".17" stop-color="#3541da"/>
+      <stop offset=".21" stop-color="#2835d7"/>
+      <stop offset=".24" stop-color="#2431d7"/>
+      <stop offset=".33" stop-color="#131dc9"/>
+      <stop offset=".42" stop-color="#0810c1"/>
+      <stop offset=".5" stop-color="#050cbe"/>
+      <stop offset=".56" stop-color="#040ab0"/>
+      <stop offset=".67" stop-color="#0409a2"/>
+      <stop offset=".8" stop-color="#040899"/>
+      <stop offset="1" stop-color="#040897"/>
+    </linearGradient>
+  </defs>
+  <polygon class="cls-2" points="11.36 23.53 .62 23.96 6.82 15.17 3.09 5.08 13.37 8.26 21.81 1.6 21.96 12.36 30.9 18.33 20.72 21.8 17.8 32.15 11.36 23.53"/>
+  <path class="cls-1" d="M21.33,2.62l.13,9.48v.53s.44.29.44.29l7.88,5.27-8.97,3.05-.5.17-.14.51-2.57,9.12-5.68-7.59-.31-.42-.53.02-9.47.37,5.47-7.74.3-.43-.18-.49L3.91,5.86l9.05,2.81.5.16.41-.33,7.44-5.87M22.3.58l-9.04,7.12L2.27,4.3l3.98,10.79L-.38,24.5l11.5-.45,6.89,9.21,3.12-11.07,10.89-3.71-9.57-6.39-.16-11.5h0Z"/>
+</svg>
