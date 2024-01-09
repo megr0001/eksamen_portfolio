@@ -176,7 +176,7 @@ nav {
 }
 
 .pink_box {
-  background-color: rgb(254, 202, 211);
+  background-color: rgb(253, 211, 218);
   padding: 5%;
   max-width: 85%;
   margin-top: 50px;
@@ -337,4 +337,69 @@ nav {
   height: 100%;
   background-size: cover;
   background-image: url(billeder/pink_frog.svg);
+}
+/* ----------- lyserød box og grid rundt om den ------------ */
+@media screen and (min-width: 800px) {
+  .grid2_tema4 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 1.5rem;
+    padding-left: 2rem;
+  }
+}
+.pink_box_tema4 {
+  background-color: rgb(253, 211, 218);
+  padding: 5%;
+  max-width: 85%;
+  border-radius: 25px;
+  text-align: center;
+}
+
+.h2_tema4 {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-size: 40px;
+  color: #333;
+  margin-left: 10px;
+  margin-top: 0;
+  padding: 0;
+  margin-bottom: 0;
+}
+
+.liste {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+.grå_boks {
+  background-color: rgb(224, 222, 222);
+  text-align: center;
+  padding: 0.5rem;
+}
+.pink_boks_spil {
+  background-color: rgb(253, 211, 218);
+  padding: 3%;
+  padding-top: 1%;
+  max-width: 85%;
+  border-radius: 25px;
+  text-align: center;
+  margin: 30px;
+}
+.p_konventioner {
+  margin-left: 50px;
+  margin-right: 50px;
+  text-align: left;
+}
+
+.animationer {
+  height: 200px;
+  margin-left: 20px;
+}
+
+.animationer_tema4 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding: 1.5rem;
+  padding-left: 2rem;
+}
+.p_animation {
+  margin-right: 60px;
 }
